@@ -35,4 +35,44 @@ with cte as(
 )
 select max(salary) as SecondHighestSalary from cte where ds=2
 
+-- PERFECT SOLUTION
+CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
+BEGIN
+  RETURN (
+      SELECT DISTINCT e1.salary
+       FROM Employee e1
+        WHERE (
+            SELECT COUNT(DISTINCT e2.salary)
+            FROM Employee e2
+            WHERE e2.salary > e1.salary
+        )= N - 1
+);
+END
+
 -----------------------------------
+--Aggregate Functions
+
+SELECT department,
+       COUNT(*) AS total_employees,
+       AVG(salary) AS avg_salary,
+       MAX(salary) AS highest_salary,
+       MIN(salary) AS lowest_salary
+FROM employees
+GROUP BY department;
+------
+select min(salary) as min_sal,
+max(salary) as max_sal,
+sum(salary) as sum_sal,
+avg(salary) as avg_sal,
+count(*) as count_rows
+from emp;
+------------------------------------
+select * from emp where city in ('Banglore','Chennai');
+----------------------------------
+select * from A
+union --combines tables without duplicates
+select * from B;
+
+select * from A
+union all --combines tables with duplicates
+select * from B;
