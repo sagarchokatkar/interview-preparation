@@ -15,13 +15,14 @@
 - JVM Memory (Data Storage, Heap, in-depth concepts), Heap Memory, Garbage Collection
 - HashMap, HashTable (how are duplicate keys handled? internal implementation, collisions, etc.)
 - HashCode (how to avoid 2 objs having the same hash code)
-✅ How to create an immutable class in Java
-✅ What is try with resources
+
+ - ✅ How to create an immutable class in Java
+ - ✅ What is try with resources
 - How many default & static methods are in a functional interface?
 - Lambda Expressions, Stream API (in-depth internal implementations like Splitterator)
 - Multi-Threading (in-depth features, volatile keyword, thread pool), Java Concurrency API, race condition, round robin
 - Design Patterns (Abstract, Factory, Builder, Observer)
-✅  SOLID (Liskov substitution real-time implementation example in your project)
+- ✅  SOLID (Liskov substitution real-time implementation example in your project)
 - Java 21 New Features (Ex, virtual threads)
 - Datastructures (String manipulation: -> find the frequency of characters in string (top 2), -> find non-character, etc...) Tip: Use ChatGPT for various versions or types of these questions
 - Do more coding syntax in Java (Implement code/poc on every concept you learn above)
