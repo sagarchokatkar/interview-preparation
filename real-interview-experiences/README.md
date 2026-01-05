@@ -42,7 +42,11 @@
 - Write the Java code to get high freq chars from a string (Ex: mostFreq("abracadabrra", 2) must return ['a', 'r'])
 - Write a query to get the top 10 venues sorted by number of bookings in the last 30 days. (where venues & bookings are two tables with venue_id as common)
   
- 
+ - How HashMap works internally
+ - What is hashcode method always return 1 , 0 ,-1
+ - whats contract between hashcode and equals method.
+ - how concurrant hashmap works in ternally
+ - controller calling one servive which is having 2 transactional methods , method 1 calling method 2 internally and method 1 is getting called from controller then what will happend.
 
 - ✅ DBMS: 
 - ✅ SQL DB vs Java Memory (real-time production performance issues faced in your project)
