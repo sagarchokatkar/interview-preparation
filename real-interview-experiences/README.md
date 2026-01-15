@@ -30,7 +30,9 @@
 - 
 - ✅ Java 8 to Java 21 Features  (Ex, virtual threads)
 - REST API (design, re-design, bad vs good API design aspects, best practices for rest api design)
--
+- diffrence between record and classes
+- virtual threads
+- groupby using streams api example
 
 - ✅ docker
 - Kubernetes (pods, replicas, scale, etc.)
