@@ -36,6 +36,10 @@
 - ✅ how to make sure the Kafka msgs are sent in an order? (Soln: use same key for all the msgs)
 - ✅ how to make sure that a microservice has not consumed a kafka msg more than once?
 - Microservices Architecture (e.g., Saga, DB per service, etc.), how do you design from scratch? How do microservices communicate? (sync vs async, rest api call vs msg)
+- what is difference between REcord and classes.
+- what is virtual thread.
+- features of Java 17
+- 
 
   
 - Do more coding syntax in Java (Implement code/poc on every concept you learn above)
