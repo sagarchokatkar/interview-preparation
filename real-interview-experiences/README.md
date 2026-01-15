@@ -4,17 +4,17 @@
 
 ✅ Using Enum in Java, writean  abstract method to perform ADD, SUB, MUL
 - ✅ Java Collections (List.of, Arrays.asList, Map, List, Set, Queue, Mutable vs Immutable, Thread safe, HashMap & ConcurrentHashMap) -> Internal Implementations
-- HashMap, HashTable (how are duplicate keys handled? internal implementation, collisions, etc.)
-- HashCode (how to avoid 2 objs having the same hash code)
+- ✅ HashMap, HashTable (how are duplicate keys handled? internal implementation, collisions, etc.)
+- ✅ HashCode (how to avoid 2 objs having the same hash code)
 - Datastructures, Time Complexity, Searching, Sorting :: Datastructures (String manipulation: -> find the frequency of characters in string (top 2), -> find non-character, etc...) Tip: Use ChatGPT for various versions or types of these questions
-- Generics (to perform the add operation)
+- ✅ Generics (to perform the add operation)
 - Streams & Lambdas Combo, Lambda Expressions, Stream API (in-depth internal implementations like Splitterator)
 - ✅Inheritance & Polymorphism
 - ✅ How to create an immutable class in Java
 - ✅ What is try with resources
 - ✅ How many default & static methods are in a functional interface?
 - ✅ "record" in Java
-- JVM Memory (Data Storage, Heap, in-depth concepts), Heap Memory, Garbage Collection
+- ✅ JVM Memory (Data Storage, Heap, in-depth concepts), Heap Memory, Garbage Collection
 - ✅ Multiple catch statements, exception classes order (exception hierarchies, GenericException)
 
 
@@ -26,6 +26,8 @@
   
   
 - Multi-Threading (in-depth features, volatile keyword, thread pool), Java Concurrency API, race condition, round robin
+- Spring flex
+- 
 - ✅ Java 8 to Java 21 Features  (Ex, virtual threads)
 - REST API (design, re-design, bad vs good API design aspects, best practices for rest api design)
 -
@@ -39,8 +41,8 @@
 
   
 - Do more coding syntax in Java (Implement code/poc on every concept you learn above)
-- Write the Java code to get high freq chars from a string (Ex: mostFreq("abracadabrra", 2) must return ['a', 'r'])
-- Write a query to get the top 10 venues sorted by number of bookings in the last 30 days. (where venues & bookings are two tables with venue_id as common)
+- ✅ Write the Java code to get high freq chars from a string (Ex: mostFreq("abracadabrra", 2) must return ['a', 'r'])
+- ✅ Write a query to get the top 10 venues sorted by number of bookings in the last 30 days. (where venues & bookings are two tables with venue_id as common)
   
  
 
