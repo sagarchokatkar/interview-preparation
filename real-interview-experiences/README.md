@@ -23,7 +23,10 @@
 - ✅ CI/CD jenkins pipeline  ansible tower.
 - ✅ SDLC, Agile, Scrum,kanban. Sprint planning/sprint capacity (hours vs man days)
 - ✅ TDD vs BDD
-  
+- what is Memory Leak and how you would identify and fix memory leaks in microservices
+- What is AbstractFactory design pattern
+- Difference between RestTemplate, RestClient, Webclient
+- How concurrentHashmap works
   
 - Multi-Threading (in-depth features, volatile keyword, thread pool), Java Concurrency API, race condition, round robin
 - Spring flex
